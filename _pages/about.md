@@ -25,7 +25,11 @@ I am currently working on uncertainty-aware (e.g., bandit-based) recommendation 
 I am also interested in extending the theoretical understanding of linear representation learning to modern large-scale deep neural networks, including large language models.
 
 **Research Keywords**  
-Machine Learning, Unsupervised Learning, Latent Variable Models, Optimization, Nonnegative Matrix Factorization, Tensor Decomposition, Blind Signal Separation, Dictionary Learning, Recommendation Systems.
+Machine Learning, Representation Learning, Unsupervised Learning, Optimization, 
+Latent Variable Models, Non-convex Optimization, 
+Large Language Models, Foundation Models, 
+Uncertainty Estimation, Recommendation Systems.
+
 
 **Publications**  
 See my <a href="https://scholar.google.com/citations?user=T6FpaqMAAAAJ&hl=en">Google Scholar profile</a>.

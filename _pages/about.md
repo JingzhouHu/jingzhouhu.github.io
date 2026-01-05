@@ -1,46 +1,39 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "About Me"
+excerpt: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-I'm a final year Ph.D. student from the Department of Computer & Information Science & Engineering (<a href="https://www.cise.ufl.edu/">CISE</a>) at the University of Florida. I am very fortunate to be advised by <a href="https://www.cise.ufl.edu/~kejun/">Prof. Kejun Huang</a>.
-Before coming to UF, I finished my undergraduate at Nanjing University.
-I have a broad interest in the general area of Machine Learning (more specified in an unsupervised fashion), Signal Processing, Optimization, and Statistics. See detailed topics include:
 
+I recently received my Ph.D. from the Department of Computer & Information Science & Engineering (CISE) at the University of Florida, where I was advised by <a href="https://www.cise.ufl.edu/~kejun/">Prof. Kejun Huang</a>.
+Before joining UF, I obtained my bachelor's degree from Nanjing University.
 
-**Latent variable models' identifiability** guarantees us to discover patterns in an unsupervised fashion, including nonnegative matrix factorization, bounded/independent component analysis, and dictionary learning.
+My research interests lie in the theoretical and algorithmic aspects of machine learning, with a particular focus on unsupervised learning, latent variable models, and non-convex optimization.
 
-**Non-convex optimization** algorithms that are computationally efficient and (hopefully) with optimality guarantees.
+Specifically, my research includes:
 
-**Applications** in various areas, including machine learning, data analytics, natural language processing, and computer vision.
+• **Identifiability of latent variable models**, which enables principled pattern discovery in unsupervised learning, including nonnegative matrix factorization, bounded and independent component analysis, and dictionary learning.
 
-I'm also working on some interesting new topics, stay tuned :D
+• **Efficient non-convex optimization algorithms** with provable guarantees for structured learning problems.
 
+• **Applications** of the above methods to machine learning, recommendation systems, natural language processing, and computer vision.
 
-Research topics Keyword:
----
-Machine Learning, Unsupervised Learning, Optimization, Nonnegative Matrix Factorization, Signal Processing, Tensor Decomposition, Recommendation System, Blind Signal Separation, Bounded/Independent component analysis.
+I am currently working on uncertainty-aware (e.g., bandit-based) recommendation systems for e-commerce and routing problems in multi-agent systems.
+I am also interested in extending the theoretical understanding of linear representation learning to modern large-scale deep neural networks, including large language models.
 
-Publications:
----
-See (<a href="https://scholar.google.com/citations?user=T6FpaqMAAAAJ&hl=en">google scholar page</a>).
+**Research Keywords**  
+Machine Learning, Unsupervised Learning, Latent Variable Models, Optimization, Nonnegative Matrix Factorization, Tensor Decomposition, Blind Signal Separation, Dictionary Learning, Recommendation Systems.
 
-News (updated Dec/2023)
----
-One paper accepted: 
-Complex Bounded Component Analysis: Identifiability and Algorithm **(ICASSP 2024)**
+**Publications**  
+See my <a href="https://scholar.google.com/citations?user=T6FpaqMAAAAJ&hl=en">Google Scholar profile</a>.
 
-One paper accepted:
-Global Identifiability of L1-based Dictionary Learning via Matrix Volume Optimization **(NeurIPS 2023)** 
+**Selected Publications**
 
-One paper accepted:
-Identifiable Bounded Component Analysis Via Minimum Volume Enclosing Parallelotope **(ICASSP 2023)** 
+• Complex Bounded Component Analysis: Identifiability and Algorithm. **ICASSP 2024**
 
+• Global Identifiability of L1-based Dictionary Learning via Matrix Volume Optimization. **NeurIPS 2023**
 
-
-
-
+• Identifiable Bounded Component Analysis via Minimum Volume Enclosing Parallelotope. **ICASSP 2023**

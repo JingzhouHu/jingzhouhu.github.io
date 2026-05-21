@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-## Hero
+## Bio
 
 Applied Scientist at Amazon, building LLM-based agentic reasoning systems and adaptive decision pipelines, with prior research in theoretical machine learning: identifiable representation learning, signal processing, matrix factorization, and non-convex optimization.
 

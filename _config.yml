@@ -71,14 +71,17 @@ analytics:
 # Author (Sidebar)
 # ======================
 author:
-  name             : "Jingzhou Hu, Ph.D."
+  name             : "Jingzhou Hu"
   avatar           : "Hu.png"
-  bio              : "Applied Scienst at Amazon"
+  bio              : "Applied Scientist at Amazon, Ph.D."
   location         : "United States"
   googlescholar    : "https://scholar.google.com/citations?user=T6FpaqMAAAAJ&hl=en"
-  github           : 
-  linkedin         : "https://www.linkedin.com/in/jingzhouhu"
+  github           :
   email            :
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/jingzhouhu/"
 
 # ======================
 # Reading Files

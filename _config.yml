@@ -14,10 +14,10 @@ title_separator          : "-"
 name                     : "Jingzhou Hu"
 description              : "Machine learning researcher focusing on representation learning and optimization, with interests in large language models."
 
-# GitHub Pages (project site)
+# GitHub Pages (user site)
 url                      : "https://jingzhouhu.github.io"
-baseurl                  : "/me"
-repository               : "JingzhouHu/me"
+baseurl                  : ""
+repository               : "JingzhouHu/jingzhouhu.github.io"
 
 breadcrumbs              : false
 words_per_minute         : 160

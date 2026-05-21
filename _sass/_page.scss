@@ -220,7 +220,6 @@
   text-transform: uppercase;
 }
 
-
 /*
    Page meta
    ========================================================================== */
@@ -245,7 +244,6 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
-
 
 /*
    Page taxonomy
@@ -275,7 +273,6 @@
     color: $link-color-hover;
   }
 }
-
 
 /*
    Comments
@@ -372,7 +369,6 @@
   }
 }
 
-
 /*
    Related
    ========================================================================== */
@@ -399,42 +395,26 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
-.focus-grid,
-.publication-grid {
+
+/* ==========================================================================
+   Custom homepage sections
+   ========================================================================== */
+
+.focus-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1rem;
   margin: 1rem 0 1.5rem;
 }
 
-.focus-card,
-.publication-card {
+.focus-card {
   border: 1px solid #e6e6e6;
   border-radius: 10px;
   background: #fff;
-}
-
-.focus-card {
   padding: 1rem;
 }
 
-.publication-card img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.publication-card__content {
-  padding: 0.9rem 1rem 1rem;
-}
-
-.publication-meta {
-  font-size: 0.9rem;
-  color: #666;
-  margin: 0.25rem 0 0.5rem;
-}
+/* Vertical publication list: image left, text right */
 .publication-grid {
   display: flex;
   flex-direction: column;
@@ -475,7 +455,6 @@
   margin: 0 0 0.45rem;
 }
 
-/* 手机端自动改成上下排 */
 @media (max-width: 768px) {
   .publication-card {
     grid-template-columns: 1fr;

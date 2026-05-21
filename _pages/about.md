@@ -8,36 +8,65 @@ redirect_from:
   - /about.html
 ---
 
-I recently received my Ph.D. from the Department of Computer & Information Science & Engineering (CISE) at the University of Florida, where I was advised by <a href="https://www.cise.ufl.edu/~kejun/">Prof. Kejun Huang</a>.
-Before joining UF, I obtained my bachelor's degree from Nanjing University.
+## Hero
 
-My research interests lie in the theoretical and algorithmic aspects of machine learning, with a particular focus on unsupervised learning, latent variable models, and non-convex optimization.
+Applied Scientist at Amazon, working on LLM-based agentic reasoning systems and adaptive decision systems, with prior research in identifiable representation learning and non-convex optimization.
 
-Specifically, my research includes:
+## Research Focus
 
-• **Identifiability of latent variable models**, which enables principled pattern discovery in unsupervised learning, including nonnegative matrix factorization, bounded and independent component analysis, and dictionary learning.
+<div class="focus-grid">
+  <div class="focus-card">
+    <h3>Learning Foundations</h3>
+    <p>Representation learning with identifiability, non-convex optimization, and signal-processing-grounded latent variable modeling.</p>
+  </div>
+  <div class="focus-card">
+    <h3>Adaptive Decision Systems</h3>
+    <p>Contextual bandits, partial-feedback learning, and uncertainty-aware decision pipelines for robust online adaptation.</p>
+  </div>
+  <div class="focus-card">
+    <h3>LLM &amp; Agentic Reasoning Systems</h3>
+    <p>Routing, orchestration, and control strategies for multi-component reasoning systems built on large language models.</p>
+  </div>
+</div>
 
-• **Efficient non-convex optimization algorithms** with provable guarantees for structured learning problems.
+## Selected Research &amp; System Contributions
 
-• **Applications** of the above methods to machine learning, recommendation systems, natural language processing, and computer vision.
+### Published Research
 
-I am currently working on uncertainty-aware (e.g., bandit-based) recommendation systems for e-commerce and routing problems in multi-agent systems.
-I am also interested in extending the theoretical understanding of linear representation learning to modern large-scale deep neural networks, including large language models.
+I received my Ph.D. from the Department of Computer &amp; Information Science &amp; Engineering (CISE) at the University of Florida, advised by <a href="https://www.cise.ufl.edu/~kejun/">Prof. Kejun Huang</a>. Before joining UF, I obtained my bachelor's degree from Nanjing University.
 
-**Research Keywords**  
-Machine Learning, Representation Learning, Unsupervised Learning, Optimization, 
-Latent Variable Models, Non-convex Optimization, 
-Large Language Models, Foundation Models, 
-Uncertainty Estimation, Recommendation Systems.
+Representative technical directions include identifiability of latent variable models (including nonnegative matrix factorization, bounded and independent component analysis, and dictionary learning), as well as efficient non-convex optimization algorithms with provable guarantees.
 
+### Applied/System Work
 
-**Publications**  
-See my <a href="https://scholar.google.com/citations?user=T6FpaqMAAAAJ&hl=en">Google Scholar profile</a>.
+Current work centers on uncertainty-aware recommendation and adaptive routing/orchestration in LLM-based agentic systems, with emphasis on system-level methodology and decision quality under partial feedback.
 
-**Selected Publications**
+## Selected Publications
 
-• Complex Bounded Component Analysis: Identifiability and Algorithm. **ICASSP 2024**
+<div class="publication-grid">
+{% for pub in site.data.selected_publications %}
+  <article class="publication-card">
+    <img src="{{ pub.image }}" alt="Teaser for {{ pub.title }}" loading="lazy" />
+    <div class="publication-card__content">
+      <h3><a href="{{ pub.url }}">{{ pub.title }}</a></h3>
+      <p class="publication-meta">{{ pub.venue }} · {{ pub.year }}</p>
+      <p>{{ pub.contribution }}</p>
+    </div>
+  </article>
+{% endfor %}
+</div>
 
-• Global Identifiability of L1-based Dictionary Learning via Matrix Volume Optimization. **NeurIPS 2023**
+## Service &amp; Mentorship
 
-• Identifiable Bounded Component Analysis via Minimum Volume Enclosing Parallelotope. **ICASSP 2023**
+- Reviewer for major machine learning and signal processing venues.
+- Mentoring students and early-career researchers on ML fundamentals, research execution, and applied experimentation.
+
+## Links
+
+- <a href="https://scholar.google.com/citations?user=T6FpaqMAAAAJ&hl=en">Google Scholar</a>
+- <a href="https://github.com/JingzhouHu">GitHub</a>
+- <a href="https://www.linkedin.com/in/jingzhou-hu-772a66208/">LinkedIn</a>
+
+## Previous Research Keywords (kept for continuity)
+
+Machine Learning, Representation Learning, Unsupervised Learning, Optimization, Latent Variable Models, Non-convex Optimization, Large Language Models, Foundation Models, Uncertainty Estimation, Recommendation Systems.

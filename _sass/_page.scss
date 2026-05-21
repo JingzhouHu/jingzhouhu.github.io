@@ -469,3 +469,35 @@
     padding: 0.85rem 1rem 1rem;
   }
 }
+
+/* Force vertical publication layout */
+.page__content .publication-grid {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1rem !important;
+}
+
+.page__content .publication-card {
+  display: grid !important;
+  grid-template-columns: 220px 1fr !important;
+  gap: 1rem !important;
+  align-items: start !important;
+}
+
+.page__content .publication-card img {
+  width: 220px !important;
+  height: 140px !important;
+  object-fit: cover !important;
+  display: block !important;
+}
+
+@media (max-width: 768px) {
+  .page__content .publication-card {
+    grid-template-columns: 1fr !important;
+  }
+
+  .page__content .publication-card img {
+    width: 100% !important;
+    height: 180px !important;
+  }
+}

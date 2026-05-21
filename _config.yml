@@ -71,13 +71,13 @@ analytics:
 # Author (Sidebar)
 # ======================
 author:
-  name             : "Jingzhou Hu"
-  avatar           : "Hu.png"   # keep existing image
-  bio              : "Machine Learning Researcher (Ph.D., University of Florida)"
+  name             : "Jingzhou Hu, Ph.D."
+  avatar           : "Hu.png"
+  bio              : "Applied Scienst"
   location         : "United States"
   googlescholar    : "https://scholar.google.com/citations?user=T6FpaqMAAAAJ&hl=en"
-  github           :
-  linkedin         :
+  github           : 
+  linkedin         : "jingzhou-hu-772a66208"
   email            :
 
 # ======================

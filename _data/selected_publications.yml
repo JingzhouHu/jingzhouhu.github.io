@@ -3,20 +3,20 @@
   venue: "NeurIPS"
   year: 2023
   contribution: "Establishes global identifiability guarantees for L1-based dictionary learning via a matrix-volume formulation."
-  image: "/assets/img/papers/dictionary-learning.png"
+  image: "/assets/img/papers/DL.png"
 
   - title: "Identifiable Bounded Component Analysis via Minimum Volume Enclosing Parallelotope"
   url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11110040/pdf/nihms-1986153.pdf"
   venue: "ICASSP"
   year: 2023
   contribution: "Introduces a minimum-volume enclosing parallelotope view for identifiable bounded component analysis."
-  image: "/assets/img/papers/bca1.png"
+  image: "/assets/img/papers/RealBCA.png"
 
 - title: "Complex Bounded Component Analysis: Identifiability and Algorithm"
   url: "https://par.nsf.gov/servlets/purl/10573122"
   venue: "ICASSP"
   year: 2024
   contribution: "Provides identifiability analysis and an efficient algorithm for complex-valued bounded component analysis."
-  image: "/assets/img/papers/bca.png"
+  image: "/assets/img/papers/ComplexBCA.png"
 
 

@@ -10,7 +10,7 @@ redirect_from:
 
 ## Bio
 
-Applied Scientist at Amazon, building LLM-based agentic reasoning systems and adaptive decision pipelines, with prior research in theoretical machine learning: identifiable representation learning, signal processing, matrix factorization, and non-convex optimization.
+Applied Scientist at Amazon, building LLM-based agentic reasoning systems and adaptive decision pipelines, with prior research in theoretical machine learning: identifiable representation learning, signal processing, matrix factorization, and non-convex optimization. I received my Ph.D. from the Department of Computer &amp; Information Science &amp; Engineering (CISE) at the University of Florida, advised by <a href="https://www.cise.ufl.edu/~kejun/">Prof. Kejun Huang</a>. Before joining UF, I obtained my bachelor’s degree from Nanjing University.
 
 ## Research Focus
 
@@ -35,8 +35,6 @@ Applied Scientist at Amazon, building LLM-based agentic reasoning systems and ad
 
 - Established identifiability results for latent representation models, including bounded component analysis and dictionary learning.
 - Developed non-convex optimization methods with theoretical guarantees fo identifiable latent representation learning problems.
-
-I received my Ph.D. from the Department of Computer &amp; Information Science &amp; Engineering (CISE) at the University of Florida, advised by <a href="https://www.cise.ufl.edu/~kejun/">Prof. Kejun Huang</a>. Before joining UF, I obtained my bachelor’s degree from Nanjing University.
 
 ### Applied/System Work at Industry
 

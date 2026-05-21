@@ -12,7 +12,7 @@
   contribution: "Introduces a minimum-volume enclosing parallelotope view for identifiable bounded component analysis."
   image: "/assets/img/papers/RealBCA.png"
 
-  - title: "Complex Bounded Component Analysis: Identifiability and Algorithm"
+- title: "Complex Bounded Component Analysis: Identifiability and Algorithm"
   url: "https://par.nsf.gov/servlets/purl/10573122"
   venue: "ICASSP"
   year: 2024

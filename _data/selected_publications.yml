@@ -1,1 +1,14 @@
+- title: "Complex Bounded Component Analysis: Identifiability and Algorithm"
+  url: "https://ieeexplore.ieee.org/document/10445998"
+  venue: "ICASSP"
+  year: 2024
+  contribution: "Establishes identifiability conditions and introduces a practical algorithm for complex-valued bounded component analysis."
+  image: "/assets/img/papers/bca.png"
+
+- title: "Global Identifiability of L1-based Dictionary Learning via Matrix Volume Optimization"
+  url: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/3189f24f746f0f3768978684f3f54076-Abstract-Conference.html"
+  venue: "NeurIPS"
+  year: 2023
+  contribution: "Provides global identifiability guarantees for sparse dictionary learning through a matrix-volume perspective."
+  image: "/assets/img/papers/dictionary-learning.png"
 

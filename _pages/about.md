@@ -33,12 +33,12 @@ I received my Ph.D. from the Department of Computer &amp; Information Science &a
 
 ## Selected Research &amp; System Contributions
 
-### Published Research
+### Published Research during my Ph.D.
 
 - Established identifiability results for latent representation learning models, including bounded component analysis and dictionary learning.
 - Developed non-convex optimization methods with theoretical guarantees fo identifiable latent representation learning problems.
 
-### Applied/System Work at Industry
+### Applied ML System at Industry
 
 - Built uncertainty-aware decision methods for recommendation settings with partial feedback.
 - Developed routing and orchestration strategies for LLM-based agentic reasoning systems.

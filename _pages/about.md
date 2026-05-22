@@ -19,15 +19,15 @@ I received my Ph.D. from the Department of Computer &amp; Information Science &a
 <div class="focus-grid">
   <div class="focus-card">
     <h3>Machine Learning Foundations</h3>
-    <p>Representation learning with identifiability, non-convex optimization, and signal-processing-grounded latent variable modeling.</p>
+    <p>Representation learning with identifiability guarantee, non-convex optimization, and latent variable modeling.</p>
   </div>
   <div class="focus-card">
     <h3>Adaptive Decision Systems</h3>
-    <p>Contextual bandits, partial-feedback learning, and uncertainty-aware decision making pipelines for ML system at scale.</p>
+    <p>Contextual neural bandits, partial-feedback learning, and uncertainty-aware decision making pipelines for ML system at scale.</p>
   </div>
   <div class="focus-card">
     <h3>LLM &amp; Agentic Reasoning Systems</h3>
-    <p>Routing, orchestration, and control strategies for multi-component reasoning systems built on large language models.</p>
+    <p>Routing, orchestration, and control strategies for multi-component agentic reasoning systems built on large language models.</p>
   </div>
 </div>
 
@@ -35,7 +35,7 @@ I received my Ph.D. from the Department of Computer &amp; Information Science &a
 
 ### Published Research
 
-- Established identifiability results for latent representation models, including bounded component analysis and dictionary learning.
+- Established identifiability results for latent representation learning models, including bounded component analysis and dictionary learning.
 - Developed non-convex optimization methods with theoretical guarantees fo identifiable latent representation learning problems.
 
 ### Applied/System Work at Industry

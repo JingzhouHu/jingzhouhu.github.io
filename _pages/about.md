@@ -67,7 +67,7 @@ I received my Ph.D. from the Department of Computer &amp; Information Science &a
 ## Links
 
 - <a href="https://scholar.google.com/citations?user=T6FpaqMAAAAJ&hl=en">Google Scholar</a>
-- <a href="https://www.linkedin.com/in/jingzhou-hu-772a66208/">LinkedIn</a>
+- <a href="https://www.linkedin.com/in/jingzhouhu/">LinkedIn</a>
 
 ## Previous Research Keywords (kept for continuity)
 

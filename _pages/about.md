@@ -72,3 +72,7 @@ I received my Ph.D. from the Department of Computer &amp; Information Science &a
 ## Previous Research Keywords (kept for continuity)
 
 Machine Learning, Representation Learning, Unsupervised Learning, Optimization, Latent Variable Models, Non-convex Optimization, Uncertainty Estimation, Recommendation Systems, Reinforcement Learning, Large Language Models, Agentic System.
+
+## Func Fact: A small historical curiosity.
+
+I only later realized that one branch of my academic genealogy seems to pass through Poisson, Lagrange, and Laplace. This made my work on matrix-volume dictionary learning feel like a small historical echo: determinants, volume minimization, and Bernoulli-Gaussian sparse models had already appeared naturally in the work, before I knew about the lineage.

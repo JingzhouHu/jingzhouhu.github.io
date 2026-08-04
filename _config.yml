@@ -56,10 +56,7 @@ facebook:
   publisher              :
 og_image                 :
 
-social:
-  type                   : Person
-  name                   :
-  links                  :
+social                   : false
 
 # ======================
 # Analytics (disabled)

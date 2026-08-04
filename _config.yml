@@ -12,7 +12,7 @@ locale                   : "en-US"
 title                    : "Jingzhou Hu"
 title_separator          : "-"
 name                     : "Jingzhou Hu"
-description              : "Machine learning researcher focusing on representation learning and optimization, with interests in large language models."
+description              : "Machine learning researcher focusing on representation learning, optimization, adaptive decision-making, and large language model systems."
 
 # GitHub Pages (user site)
 url                      : "https://jingzhouhu.github.io"
@@ -109,8 +109,36 @@ exclude:
   - log
   - node_modules
   - package.json
+  - markdown_generator
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
   - tmp
   - vendor
+  # Unused pages and demo content inherited from the AcademicPages template.
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/cv.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/portfolio.html
+  - _pages/sitemap.md
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/terms.md
+  - _pages/year-archive.html
+  - _posts
+  - _portfolio
+  - _publications
+  - _talks
+  - _teaching
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
 
 keep_files:
   - .git
@@ -140,23 +168,6 @@ kramdown:
   enable_coderay: false
 
 # ======================
-# Collections
-# ======================
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-
-# ======================
 # Defaults
 # ======================
 defaults:
@@ -164,49 +175,13 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
+      published: false
 
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      author_profile: true
-
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      comments: false
-
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      comments: false
-
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      comments: false
-
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
       author_profile: true
 
 # ======================
@@ -226,29 +201,12 @@ timezone: America/Los_Angeles
 # Plugins
 # ======================
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-redirect-from
 
 whitelist:
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-redirect-from
-
-# ======================
-# Archives
-# ======================
-category_archive:
-  type: liquid
-  path: /categories/
-
-tag_archive:
-  type: liquid
-  path: /tags/
 
 # ======================
 # HTML Compression

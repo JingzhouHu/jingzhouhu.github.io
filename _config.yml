@@ -23,8 +23,6 @@ breadcrumbs              : false
 words_per_minute         : 160
 future                   : false
 read_more                : "disabled"
-talkmap_link             : false
-
 # ======================
 # Comments (disabled)
 # ======================
@@ -86,7 +84,6 @@ author:
 include:
   - .htaccess
   - _pages
-  - files
 
 exclude:
   - "*.sublime-project"
@@ -106,36 +103,8 @@ exclude:
   - log
   - node_modules
   - package.json
-  - markdown_generator
-  - talkmap
-  - talkmap.ipynb
-  - talkmap.py
   - tmp
   - vendor
-  # Unused pages and demo content inherited from the AcademicPages template.
-  - _pages/archive-layout-with-content.md
-  - _pages/category-archive.html
-  - _pages/collection-archive.html
-  - _pages/cv.md
-  - _pages/markdown.md
-  - _pages/non-menu-page.md
-  - _pages/page-archive.html
-  - _pages/portfolio.html
-  - _pages/sitemap.md
-  - _pages/tag-archive.html
-  - _pages/talkmap.html
-  - _pages/talks.html
-  - _pages/teaching.html
-  - _pages/terms.md
-  - _pages/year-archive.html
-  - _posts
-  - _portfolio
-  - _publications
-  - _talks
-  - _teaching
-  - files/paper1.pdf
-  - files/paper2.pdf
-  - files/paper3.pdf
 
 keep_files:
   - .git

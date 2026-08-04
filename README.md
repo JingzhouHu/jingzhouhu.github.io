@@ -10,7 +10,7 @@ Source for [jingzhouhu.github.io](https://jingzhouhu.github.io), built with Jeky
 - `_config.yml`: site metadata, author links, and build exclusions
 - `_sass/_page.scss`: custom page components
 
-The top navigation and CV page are intentionally disabled. Template demo content remains in the repository for reference but is excluded from the generated site.
+The top navigation and CV page are intentionally disabled. Unused AcademicPages demo content has been removed so the repository contains only the active site and its theme dependencies.
 
 ## Local preview
 

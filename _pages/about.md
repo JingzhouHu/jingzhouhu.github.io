@@ -49,7 +49,7 @@ I received my Ph.D. from the Department of Computer &amp; Information Science &a
 <div class="publication-grid">
 {% for pub in site.data.selected_publications %}
   <article class="publication-card">
-    <img src="{{ pub.image | relative_url }}" alt="Figure for {{ pub.title }}" loading="lazy" decoding="async" />
+    <img src="{{ pub.image | relative_url }}" alt="Figure for {{ pub.title }}" loading="lazy" decoding="async">
     <div class="publication-card__content">
       <h3><a href="{{ pub.url }}">{{ pub.title }}</a></h3>
       <p class="publication-meta">{{ pub.venue }} · {{ pub.year }}</p>

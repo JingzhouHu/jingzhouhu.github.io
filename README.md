@@ -1,17 +1,18 @@
 # Jingzhou Hu — Personal Website
 
-Source for [jingzhouhu.github.io](https://jingzhouhu.github.io), built with Jekyll and AcademicPages. The site remains static and works without JavaScript.
+Source for [jingzhouhu.github.io](https://jingzhouhu.github.io), built with Jekyll, with a dedicated profile layout and retained AcademicPages templates for supporting pages. The site remains static and works without JavaScript.
 
 ## Maintain content
 
 - `_pages/about.md`: biography, research focus, and academic service.
 - `_data/selected_publications.yml`: ordered publication records, shared by the homepage and `/publications/`.
 - `_includes/publication-card.html`: one shared card template.
-- `_sass/_custom.scss`: site-specific layout and components; keep changes out of the theme styles.
+- `_layouts/profile.html` and `_sass/_profile.scss`: homepage and Publications layout, typography, and responsive styling.
+- `_sass/_custom.scss`: overrides for retained AcademicPages layouts.
 - `_config.yml`: metadata and profile links. `author.links` supports a label, icon, and URL.
 - `_pages/more.md`: an unpublished draft. Replace its placeholder prose before setting `published: true`; the homepage discovers and links the published page automatically.
 
-Top navigation items and a CV page remain intentionally disabled. Legacy theme JavaScript remains in the repository for reference but is not loaded; the active layout uses CSS and native HTML. `package.json` is the legacy theme build configuration, not a required build step for this site.
+The homepage navigation links to its Research, Publications, and About sections. A CV page remains disabled. Legacy theme JavaScript remains in the repository for reference but is not loaded; the active layout uses CSS and native HTML. `package.json` is the legacy theme build configuration, not a required build step for this site.
 
 ## Publications
 
@@ -35,6 +36,6 @@ python3 scripts/check_site.py
 
 The pull-request workflow builds with the GitHub Pages dependencies and validates generated routes and local links. It does not deploy. External paper and profile URLs should also be checked before release.
 
-## Release later
+## Future updates
 
-Keep the preparation branch unmerged until the research update is ready. See [the release checklist](docs/release-checklist.md). Merging into the configured GitHub Pages source branch may publish the changes.
+Add new papers and public research progress when ready. See [the release checklist](docs/release-checklist.md). Use a pull request for each update; merging into the configured GitHub Pages source branch publishes the changes.

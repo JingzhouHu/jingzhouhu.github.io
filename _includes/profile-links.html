@@ -1,0 +1,3 @@
+{% if site.author.googlescholar %}<a href="{{ site.author.googlescholar | escape }}">Google Scholar <span aria-hidden="true">↗</span></a>{% endif %}
+{% for link in site.author.links %}<a href="{{ link.url | escape }}">{{ link.label | escape }} <span aria-hidden="true">↗</span></a>{% endfor %}
+{% if site.author.github %}<a href="https://github.com/{{ site.author.github | escape }}">GitHub <span aria-hidden="true">↗</span></a>{% endif %}

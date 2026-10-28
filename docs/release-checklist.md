@@ -1,6 +1,6 @@
 # Research update release checklist
 
-The foundation can be prepared independently of publication announcements. Keep changes on the preparation branch until the intended release date; there is no automatic release schedule.
+The visual foundation is ready to publish independently of future research announcements. Prepare subsequent content updates in a branch, then merge when the public materials are ready. There is no automatic release schedule.
 
 ## Add the research update
 

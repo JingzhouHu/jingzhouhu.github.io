@@ -5,9 +5,9 @@
   <img src="{{ pub.image | relative_url }}" alt="{{ pub.image_alt | default: pub.title | escape }}" width="800" height="600" loading="lazy" decoding="async">
   {% endif %}
   <div class="publication-card__content">
+    <p class="publication-meta"><span>{{ pub.venue | escape }}</span> · {{ pub.year }}</p>
     <{{ heading }}><a href="{{ pub.url | escape }}">{{ pub.title | escape }}</a></{{ heading }}>
     {% if pub.authors %}<p class="publication-authors">{{ pub.authors | escape }}</p>{% endif %}
-    <p class="publication-meta">{{ pub.venue | escape }} · {{ pub.year }}</p>
     <p>{{ pub.contribution | escape }}</p>
     <div class="publication-links" aria-label="Resources for {{ pub.title | escape }}">
       <a href="{{ pub.url | escape }}">Paper</a>

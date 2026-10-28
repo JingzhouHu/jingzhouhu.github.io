@@ -1,0 +1,5 @@
+<div class="publication-grid">
+{% for pub in site.data.selected_publications %}
+  {% include publication-card.html pub=pub heading=include.heading %}
+{% endfor %}
+</div>

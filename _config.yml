@@ -95,6 +95,9 @@ exclude:
   - CHANGELOG
   - Capfile
   - Gemfile
+  - Gemfile.lock
+  - docs
+  - scripts
   - Gruntfile.js
   - LICENSE
   - README

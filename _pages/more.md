@@ -4,6 +4,7 @@ title: "Beyond Research"
 excerpt: "Mentoring, side projects, and interests beyond Jingzhou Hu's main research profile."
 author_profile: true
 sitemap: false
+published: false
 ---
 
 This page is intentionally lightweight for now. It provides a place for work and interests that do not belong in the main research summary, without adding another item to the top navigation.

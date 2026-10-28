@@ -1,22 +1,14 @@
 ---
-layout: archive
+layout: profile
 title: "Selected Publications"
 permalink: /publications/
-author_profile: true
-excerpt: "Selected publications by Jingzhou Hu."
+author_profile: false
+redirect_from:
+  - /me/publications/
+excerpt: "Selected publications by Jingzhou Hu on identifiable representation learning, dictionary learning, and bounded component analysis."
 ---
-
-For a complete and current list, see my <a href="{{ site.author.googlescholar }}">Google Scholar profile</a>.
-
-<div class="publication-grid">
-{% for pub in site.data.selected_publications %}
-  <article class="publication-card">
-    <img src="{{ pub.image | relative_url }}" alt="Figure for {{ pub.title }}" loading="lazy" decoding="async">
-    <div class="publication-card__content">
-      <h2><a href="{{ pub.url }}">{{ pub.title }}</a></h2>
-      <p class="publication-meta">{{ pub.venue }} · {{ pub.year }}</p>
-      <p>{{ pub.contribution }}</p>
-    </div>
-  </article>
-{% endfor %}
-</div>
+<section class="work-section publications-page" aria-labelledby="publications-title">
+  <div class="section-heading"><div><p class="eyebrow">Publications</p><h1 id="publications-title">Selected research<span>.</span></h1></div><a class="text-link" href="{{ site.author.googlescholar }}">Full list on Google Scholar <span aria-hidden="true">↗</span></a></div>
+  {% include publication-list.html heading="h2" %}
+  <a class="text-link" href="{{ '/' | relative_url }}">← Back to homepage</a>
+</section>

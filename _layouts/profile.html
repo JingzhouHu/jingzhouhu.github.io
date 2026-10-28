@@ -1,0 +1,34 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include seo.html %}
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ '/images/Hu.png' | absolute_url }}">
+    <meta property="og:image:alt" content="Jingzhou Hu">
+    <meta name="twitter:card" content="summary">
+    <meta name="theme-color" content="#f6f7f4">
+    <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="stylesheet" href="{{ '/assets/css/profile.css' | relative_url }}">
+  </head>
+  <body class="profile-site">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="profile-header">
+      <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Jingzhou Hu home"><span class="wordmark__symbol" aria-hidden="true">jh<span>.</span></span><span class="wordmark__name">Jingzhou Hu</span></a>
+      <nav aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}#research">Research</a>
+        <a href="{{ '/' | relative_url }}#publications">Publications</a>
+        <a href="{{ '/' | relative_url }}#about">About</a>
+      </nav>
+    </header>
+    <main id="main" tabindex="-1">{{ content }}</main>
+    <footer class="profile-footer">
+      <div><a class="footer-name" href="{{ '/' | relative_url }}">Jingzhou Hu<span>.</span></a><p>Machine learning · Representation learning · Adaptive systems</p></div>
+      <div class="footer-links">{% include profile-links.html %}<p class="copyright">© {{ site.time | date: '%Y' }} Jingzhou Hu</p></div>
+    </footer>
+  </body>
+</html>

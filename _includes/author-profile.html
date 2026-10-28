@@ -20,8 +20,10 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button type="button" class="btn btn--inverse">Profile</button>
-    <ul class="author__urls social-icons">
+    <ul class="author__urls social-icons" aria-label="Profile links">
+      {% for link in author.links %}
+        <li><a href="{{ link.url | escape }}">{% if link.icon %}<i class="{{ link.icon | escape }} fa-fw" aria-hidden="true"></i> {% endif %}{{ link.label | escape }}</a></li>
+      {% endfor %}
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}

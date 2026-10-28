@@ -18,7 +18,6 @@ redirect_from:
     <h1 id="profile-name">Jingzhou Hu<span>.</span></h1>
     <p class="hero-statement">From identifiable representations<br class="desktop-break"> to adaptive decision-making.</p>
     <p class="hero-description">I work on machine learning foundations and LLM-based systems, with interests in representation learning, optimization, and adaptive decision-making.</p>
-    <div class="hero-actions"><a class="primary-link" href="#publications">Explore my research <span aria-hidden="true">↗</span></a><a class="secondary-link" href="#about">About me <span aria-hidden="true">↓</span></a></div>
     <div class="social-links" aria-label="Research and professional profiles">{% include profile-links.html %}</div>
   </div>
   <div class="hero-portrait">
@@ -27,18 +26,18 @@ redirect_from:
   </div>
 </section>
 
-<section class="research-section" id="research" aria-labelledby="research-title">
-  <div class="section-heading"><div><p class="eyebrow">Research directions</p><h2 id="research-title">Foundations. Decisions. Reasoning.</h2></div><p class="section-intro">The questions behind my work, from latent representations to systems that learn and act.</p></div>
-  <div class="research-grid">
-    <article class="research-card"><span class="section-number" aria-hidden="true">01 /</span><h3>Machine learning<br> foundations</h3><p>Identifiable representation learning, latent variable models, and non-convex optimization.</p><div class="topic-label">Representation &amp; optimization</div></article>
-    <article class="research-card"><span class="section-number" aria-hidden="true">02 /</span><h3>Adaptive<br> decision systems</h3><p>Contextual neural bandits, learning from partial feedback, and uncertainty-aware decisions.</p><div class="topic-label">Learning under uncertainty</div></article>
-    <article class="research-card"><span class="section-number" aria-hidden="true">03 /</span><h3>LLM &amp; agentic<br> reasoning systems</h3><p>Routing, orchestration, evaluation, and control for systems built on large language models.</p><div class="topic-label">Reasoning &amp; orchestration</div></article>
-  </div>
+<section class="work-section" id="publications" aria-labelledby="publications-title">
+  <div class="section-heading"><div><h2 id="publications-title">Selected publications</h2></div><a class="text-link" href="{{ site.author.googlescholar }}">All publications on Scholar <span aria-hidden="true">↗</span></a></div>
+  {% include publication-list.html heading="h3" %}
 </section>
 
-<section class="work-section" id="publications" aria-labelledby="publications-title">
-  <div class="section-heading"><div><p class="eyebrow">Selected work</p><h2 id="publications-title">Research in focus<span>.</span></h2></div><a class="text-link" href="{{ site.author.googlescholar }}">All publications on Scholar <span aria-hidden="true">↗</span></a></div>
-  {% include publication-list.html heading="h3" %}
+<section class="research-section" id="research" aria-labelledby="research-title">
+  <h2 id="research-title">Research interests</h2>
+  <dl class="research-topics">
+    <div><dt>Machine learning foundations</dt><dd>Identifiable representation learning, latent variable models, and non-convex optimization.</dd></div>
+    <div><dt>Adaptive decision systems</dt><dd>Contextual neural bandits, learning from partial feedback, and uncertainty-aware decisions.</dd></div>
+    <div><dt>LLM &amp; agentic reasoning</dt><dd>Routing, orchestration, evaluation, and control for systems built on large language models.</dd></div>
+  </dl>
 </section>
 
 <section class="about-section" id="about" aria-labelledby="about-title">

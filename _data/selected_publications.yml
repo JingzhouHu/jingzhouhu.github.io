@@ -1,5 +1,8 @@
 - title: "Global Identifiability of L1-based Dictionary Learning via Matrix Volume Optimization"
   url: "https://proceedings.neurips.cc/paper_files/paper/2023/file/717b9fd2ede6b8a9971a296d5179df89-Paper-Conference.pdf"
+  author_list:
+    - "Jingzhou Hu"
+    - "Kejun Huang"
   venue: "NeurIPS"
   year: 2023
   contribution: "Establishes global identifiability guarantees for L1-based dictionary learning via a matrix-volume formulation."
@@ -7,6 +10,9 @@
 
 - title: "Identifiable Bounded Component Analysis via Minimum Volume Enclosing Parallelotope"
   url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11110040/pdf/nihms-1986153.pdf"
+  author_list:
+    - "Jingzhou Hu"
+    - "Kejun Huang"
   venue: "ICASSP"
   year: 2023
   contribution: "Introduces a minimum-volume enclosing parallelotope view for identifiable bounded component analysis."
@@ -14,6 +20,9 @@
 
 - title: "Complex Bounded Component Analysis: Identifiability and Algorithm"
   url: "https://par.nsf.gov/servlets/purl/10573122"
+  author_list:
+    - "Jingzhou Hu"
+    - "Kejun Huang"
   venue: "ICASSP"
   year: 2024
   contribution: "Provides identifiability analysis and an efficient algorithm for complex-valued bounded component analysis."
